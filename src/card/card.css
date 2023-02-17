@@ -1,0 +1,14 @@
+h5 {
+  text-align: center;
+  height: 3rem;
+}
+.card {
+  transition: transfrom 0.3s;
+}
+.card:hover {
+  transform: scale(0.97);
+  cursor: pointer;
+}
+.card img {
+  height: 250px;
+}
