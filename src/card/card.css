@@ -12,3 +12,9 @@ h5 {
 .card img {
   height: 250px;
 }
+
+.container-list {
+  transition: transform 0.3s;
+  transform: scale(0.97);
+  height: calc(2rem+250px) !important;
+}

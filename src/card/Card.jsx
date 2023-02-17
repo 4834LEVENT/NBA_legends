@@ -18,11 +18,17 @@ const Card = ({ card }) => {
           <h5 className="card-title ">{name}</h5>
         </div>
       ) : (
-        <ul className=" container-list bg-white">
-          {statistics.map((statistic, i) => {
-            return <li key={i}>{statistic}</li>;
-          })}
-        </ul>
+        <div>
+          <ul className="container-list bg-white p-4 rounded-2 mx-2">
+            {statistics.map((statistic, i) => {
+              return (
+                <li key={i} className="p-3 text-center">
+                  {statistic}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       )}
     </div>
   );

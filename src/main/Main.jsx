@@ -6,8 +6,7 @@ import "./main.css";
 
 const Main = () => {
   return (
-    <div className="container p-3 w-75 ">
-      <h1>Header</h1>
+    <div className="container p-3 w-75 rounded">
       <div className="row g-3 justify-content-center p-3 ">
         {data.map((item, i) => (
           <Card card={item} key={item.i} />
